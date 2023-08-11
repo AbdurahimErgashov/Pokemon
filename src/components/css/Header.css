@@ -1,0 +1,47 @@
+  .header {
+    position: relative;
+  }
+  
+  .search-btn{
+    position: absolute;
+    left: 59.8%;
+    top: 105%;
+  }
+
+  .logo img {
+    height: 40px;
+  }
+  
+  .searchArea {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search {
+    width: 30% !important;
+    padding: 15px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+  }
+  
+  button {
+    padding: 13.5px;
+    background-color: #fff;
+    color: coral;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+  }
+  .next{
+    position: absolute;
+    margin-left: 95%;
+    top: calc((100% - 36px) / 2);
+  }
+  .back{
+    position: absolute;
+    margin-left: 90%;
+    top: calc((100% - 36px) / 2);
+   }
